@@ -1,0 +1,192 @@
+Stack MAXSIZE: 100
+Circular Queue MAXSIZE: 100
+Circular Queue MAXSIZE: 100
+Min-heap MAXSIZE: 100
+Pushed into stack: 10
+Pushed into stack: 20
+Pushed into stack: 30
+Pushed into stack: 40
+Pushed into stack: 50
+Pushed into stack: 60
+Pushed into stack: 70
+Pushed into stack: 80
+Pushed into stack: 90
+Pushed into stack: 100
+Stack full: No
+Stack size: 10
+Stack elements from top to bottom: 100 90 80 70 60 50 40 30 20 10 
+Pushed into stack: 110
+Top of stack: 110
+Top of stack: 110
+Popped from stack: 110
+Popped from stack: 100
+Popped from stack: 90
+Popped from stack: 80
+Popped from stack: 70
+Stack size: 6
+Stack empty: No
+Stack full: No
+Stack elements from top to bottom: 60 50 40 30 20 10 
+Popped from stack: 60
+Popped from stack: 50
+Popped from stack: 40
+Popped from stack: 30
+Popped from stack: 20
+Stack size: 1
+Stack empty: No
+Stack elements from top to bottom: 10 
+Popped from stack: 10
+Error: Stack Empty
+Pushed into stack: 11
+Pushed into stack: 22
+Stack elements from top to bottom: 22 11 
+Popped from stack: 22
+Pushed into stack: 33
+Top of stack: 33
+Stack size: 2
+Stack empty: No
+Stack full: No
+Stack elements from top to bottom: 33 11 
+Popped from stack: 33
+Popped from stack: 11
+Stack empty: Yes
+Error: Stack Empty
+Enqueued: 5
+Enqueued: 15
+Enqueued: 25
+Enqueued: 35
+Enqueued: 45
+Enqueued: 55
+Enqueued: 65
+Enqueued: 75
+Enqueued: 85
+Enqueued: 95
+Queue full: No
+Queue size: 10
+Queue elements from front to rear: 5 15 25 35 45 55 65 75 85 95 
+Enqueued: 105
+Front of queue: 5
+Front of queue: 5
+Dequeued: 5
+Dequeued: 15
+Dequeued: 25
+Dequeued: 35
+Dequeued: 45
+Queue size: 6
+Queue empty: No
+Queue full: No
+Queue elements from front to rear: 55 65 75 85 95 105 
+Dequeued: 55
+Dequeued: 65
+Dequeued: 75
+Dequeued: 85
+Dequeued: 95
+Queue size: 1
+Queue empty: No
+Queue elements from front to rear: 105 
+Dequeued: 105
+Error: Queue Empty
+Enqueued: 10
+Enqueued: 20
+Enqueued: 30
+Enqueued: 40
+Queue elements from front to rear: 10 20 30 40 
+Dequeued: 10
+Dequeued: 20
+Enqueued: 50
+Enqueued: 60
+Queue size: 4
+Front of queue: 30
+Queue empty: No
+Queue full: No
+Queue elements from front to rear: 30 40 50 60 
+Dequeued: 30
+Dequeued: 40
+Dequeued: 50
+Dequeued: 60
+Queue empty: Yes
+Error: Queue Empty
+Node inserted is: 100
+Node inserted is: 200
+Node inserted is: 300
+Node inserted is: 400
+Node inserted is: 500
+List nodes are: 100 200 300 400 500 
+List empty: No
+Node 100 found
+Node 300 found
+Node 500 found
+Node 600 not found
+Node deleted is: 300
+List nodes are: 100 200 400 500 
+Node deleted is: 100
+List nodes are: 200 400 500 
+Node deleted is: 500
+List nodes are: 200 400 
+Node deleted is: 700
+List nodes are: 200 400 
+Node deleted is: 200
+Node deleted is: 400
+List empty: Yes
+Node 200 not found
+List is empty
+Node deleted is: 200
+Node inserted is: 1000
+Node inserted is: 2000
+List nodes are: 1000 2000 
+List empty: No
+List has been emptied
+List empty: Yes
+Node 1000 not found
+Node inserted is: 3000
+List nodes are: 3000 
+List has been emptied
+Inserted element: value=50, priority=5
+Inserted element: value=30, priority=3
+Inserted element: value=20, priority=2
+Inserted element: value=40, priority=4
+Inserted element: value=10, priority=1
+Inserted element: value=60, priority=6
+Inserted element: value=70, priority=7
+Inserted element: value=80, priority=8
+Heap empty: No
+Top of heap: value=10, priority=1
+Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->10, p->1; i->[1] v->20, p->2; i->[2] v->30, p->3; i->[3] v->50, p->5; i->[4] v->40, p->4; i->[5] v->60, p->6; i->[6] v->70, p->7; i->[7] v->80, p->8; 
+Extracted min: value=10, priority=1
+Top of heap: value=20, priority=2
+Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->20, p->2; i->[1] v->40, p->4; i->[2] v->30, p->3; i->[3] v->50, p->5; i->[4] v->80, p->8; i->[5] v->60, p->6; i->[6] v->70, p->7; 
+Extracted min: value=20, priority=2
+Top of heap: value=30, priority=3
+Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->30, p->3; i->[1] v->40, p->4; i->[2] v->60, p->6; i->[3] v->50, p->5; i->[4] v->80, p->8; i->[5] v->70, p->7; 
+Decreased priority of element at index 3 to 0
+Top of heap: value=50, priority=0
+Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->50, p->0; i->[1] v->30, p->3; i->[2] v->60, p->6; i->[3] v->40, p->4; i->[4] v->80, p->8; i->[5] v->70, p->7; 
+Decreased priority of element at index 2 to 9
+Top of heap: value=50, priority=0
+Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->50, p->0; i->[1] v->30, p->3; i->[2] v->60, p->6; i->[3] v->40, p->4; i->[4] v->80, p->8; i->[5] v->70, p->7; 
+Removed element at index 0
+Top of heap: value=30, priority=3
+Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->30, p->3; i->[1] v->40, p->4; i->[2] v->60, p->6; i->[3] v->70, p->7; i->[4] v->80, p->8; 
+Removed element at index 2
+Top of heap: value=30, priority=3
+Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->30, p->3; i->[1] v->40, p->4; i->[2] v->80, p->8; i->[3] v->70, p->7; 
+Extracted min: value=30, priority=3
+Extracted min: value=40, priority=4
+Extracted min: value=70, priority=7
+Extracted min: value=80, priority=8
+Heap empty: Yes
+Error: Heap Empty
+Error: Heap Empty
+Inserted element: value=25, priority=2
+Inserted element: value=15, priority=1
+Heap empty: No
+Top of heap: value=15, priority=1
+Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->15, p->1; i->[1] v->25, p->2; 
+Extracted min: value=15, priority=1
+Inserted element: value=35, priority=3
+Decreased priority of element at index 0 to 0
+Top of heap: value=25, priority=0
+Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->25, p->0; i->[1] v->35, p->3; 
+Removed element at index 0
+Heap empty: No
+Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->35, p->3; 
